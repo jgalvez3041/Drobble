@@ -1,0 +1,35 @@
+@import "partials/jeder";
+@import "partials/filtros";
+@import "partials/grid";
+@import "partials/ventanita";
+@import "partials/eslaider";
+@import "partials/animacion";
+
+// * {
+//     border: 2px solid coral;
+// }
+
+$corporatecolor: coral;
+$maxHolderWidth: 1080px;
+
+html body {
+    min-height: 100vh;
+    margin: auto;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2{
+font-weight: normal;
+}
+
+.hidden {
+    opacity: 0;
+}
+ 
+.active {
+    background-color: rgb(255, 255, 255);
+    color: #ea4c89;
+    padding: .5em;
+    align-items: center;
+    border-radius: 23px;
+}
