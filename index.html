@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#fafafa" />
+
+    <title>Drobbble</title>
+
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="icon" href="assets/img/logo.png" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/main.css.map" />
+    <link rel="stylesheet" href="assets/css/animejs.css" />
+    <link rel="stylesheet" href="assets/css/anime-theme.css" />
+
+</head>
+
+<body>
+    <div class="dribbble">
+        <header class="header">
+            <div class="header_holder">
+                <div class="header_logo">
+                    <img src="assets/img/logo.png" alt="logo">
+                </div>
+                <nav class="header_navi">
+                    <nav class="navi">
+                        <ul class="inline_menu">
+                            <li><a href="#">Inspiration</a></li>
+                            <li><a href="#">Find Work</a></li>
+                            <li><a href="#">Learn Design</a></li>
+                            <li><a href="#">Go Pro</a></li>
+                        </ul>
+                        <div class="ext">
+                            <div class="ext_toggle">
+                                <span class="fa fa-ellipsis-h"></span>
+                            </div>
+                            <div class="ext_navi">
+                                <ul class="unstyled_menu">
+                                    <li><a href="#">Job Board</a></li>
+                                    <li><a href="#">Freelance</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <img class="search" src="assets/img/search.png" alt="search">
+                    <div class="header_cta">
+                        <button class="sign_in">Sign in</button>
+                    </div>
+                    <div class="header_cta">
+                        <button id="boton" aria-describedby="tooltip">Sign Up</button>
+                        <div id="tooltip" role="tooltip">
+                        Sign up porfi...
+                          <div id="arrow" data-popper-arrow></div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper"> 
+            <div class="swiper-slide">
+                <div class="slider">
+                    <div class="slider_holder">
+                        <div class="slider_content">
+                            <h1>Discover the world's top designers & creatives</h1>
+                            <h2>Dribbble is the leading destination to find & showcase creative work and home to the
+                                world's best design professionals.</h2>
+                            <div class="slider_cta">
+                                <button >Sign up</button>
+                            </div>
+                        </div>
+                        <div class="slider_picture">
+                            <img src="assets/img/slider.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <div id="animacion">
+        <div id="caja">
+          <div id="texto">CALISTO, que ha conocido a MELIBEA en su jardín, donde su halcón se refugió un día antes al escaparse, se imagina en sueños que está frente a su amada, enamorándola. Ambos jóvenes se hallan en el mismo jardín en el que se conocieron. MELIBEA está de pie; CALISTO, rendido a sus plantas.</div>
+        </div>
+        <div id="button">Haz Click!</div>
+      </div>
+
+    <div class="filtro">
+        <div class="filtro_group filtros">
+            <div class="filtro_item active cat_all" data-category="cat_all">All</div>
+            <div class="filtro_item" data-category="cat_01"></div>
+        </div>
+        <div class="filtro_group">
+            <input type="search" name="" id="s" placeholder="&nbsp;&nbsp;Buscar...">
+            <button><span class="buscar"><i class="fa fa-search" aria-hidden="true"></i></span>&nbsp;Buscar</button>
+        </div>
+    </div>
+
+    <div class="grid_list">
+        <div class="grid_content">
+            <div class="grid_items">
+                <div class="grid_item">
+                    <img src="">
+                    <div class="grid_item_content">
+                        <img class="user" src="assets/img/logo.png" alt="work">
+                        <div class="title">Name Surname Nortename</div>
+                        <div class="label_button">
+                            <button class="label">Label</button>
+                        </div>
+                        <div class="like_button">
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                        </div>
+                        <div class="views_button">
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app/anime.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+    <script src="app/main.js"></script>
+    <script src="app/data.js"></script>
+    <script src="https://use.fontawesome.com/c5bd105f91.js"></script>
+
+</body>
+
+</html>
+
+
+
+
